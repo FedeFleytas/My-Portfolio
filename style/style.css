@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "arsenal-regular";
+    src: url(../font/Arsenal-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "arsenal-italic";
+    src: url(../font/Arsenal-Italic.ttf) format("truetype");
+}
+
+body {
+    background-color: #1F202B;
+    font-family: arsenal-regular;
+    color: whitesmoke;
+}
+
+
+
+/* Header */
+
+.buttonschange {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+}
+
+
+/* Fin Header */
+
+/* Main */
+
+.mainMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    
+}
+
+.welcome {
+    font-size: 40px;
+    margin-bottom: 0;
+    position: relative;
+    right: 50px;
+}
+
+.twof {
+    color: #00A676;
+    font-family: arsenal-italic;
+    font-size: 42px;
+}
+
+.front{
+    position: relative;
+    left: 50px;
+    font-family: arsenal-italic;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.projectbutton{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #00A676;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    &:hover {
+        background-color: #0C1B1D;
+        border: 1px solid #00A676;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.info {
+    margin-top: 10px;
+    background-color: #0C1B1D;
+    /* Stop here */
+}
+
+.about, .exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+/* Fin Main */
+
+
+
+
+/* body .cartTab .listCart .item:nth-child(even) */
